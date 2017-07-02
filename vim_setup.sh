@@ -14,6 +14,4 @@ cat ~/dotfiles/vimrc > ~/.vimrc
 rm -rf ~/dotfiles
 
 echo "set encoding=utf-8 nobomb" >> ~/.vimrc 
-sed -e 's/colorscheme solarized/colorscheme solarized/' -i ~/.vimrc
 vim +PluginInstall +quall
-sed -e 's/colorscheme solarized/colorscheme solarized/' -i ~/.vimrc
