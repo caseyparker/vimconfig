@@ -14,4 +14,4 @@ cat ~/dotfiles/vimrc > ~/.vimrc
 rm -rf ~/dotfiles
 
 echo "set encoding=utf-8 nobomb" >> ~/.vimrc 
-vim +PluginInstall +quall
+vim +PluginInstall +qall
