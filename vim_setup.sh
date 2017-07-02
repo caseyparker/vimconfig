@@ -4,6 +4,7 @@ rm -f ~/.vimrc
 rm -rf ~/.vim
 rm -rf ~/vim
 rm -rf ~/dotfiles
+sudo apt install exuberant-ctags -y
 
 cd ~
 
