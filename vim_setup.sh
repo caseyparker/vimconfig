@@ -13,5 +13,10 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 cat ~/dotfiles/vimrc > ~/.vimrc 
 rm -rf ~/dotfiles
 
+# Disable some plugins I don't like much.
+sed	-e s/Plugin\ \'scrooloose\/nerdtree\'/\#\ Plugin\ \'scrooloose\/nerdtree\'/ -i ~/.vimrc \
+	-e s/Plugin\ \'christoomey\/vim-tmux-navigator\'/\#\ Plugin\ \'christoomey\/vim-tmux-navigator\'/ \
+	-i ~/.vimrc
+
 echo "set encoding=utf-8 nobomb" >> ~/.vimrc 
 vim +PluginInstall +qall
