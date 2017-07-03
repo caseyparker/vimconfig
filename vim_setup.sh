@@ -11,7 +11,7 @@ git clone https://github.com/souravchk/dotfiles.git
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 wget https://github.com/lifepillar/vim-solarized8/archive/v0.6.tar.gz \
-	&& tar -xvff v0.6.tar.gz -C ~/.vim \
+	&& tar -xvf v0.6.tar.gz -C ~/.vim \
 	&& rm -f v0.6.tar.gz
 
 cat ~/dotfiles/vimrc > ~/.vimrc 
