@@ -14,8 +14,7 @@ cat ~/dotfiles/vimrc > ~/.vimrc
 rm -rf ~/dotfiles
 
 # Disable some plugins I don't like much.
-sed \
-	-e '/nerdtree/d' \
+sed  --i -e '/nerdtree/d' \
 	-e '/solarized/d' \
 	-e '/altercation/d' \
 	-e '/fazz/d' \
