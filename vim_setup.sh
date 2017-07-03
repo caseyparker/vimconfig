@@ -19,7 +19,7 @@ sed	-e '/nerdtree/d' \
 	-e '/solarized/d' \
 	-e '/mux/d' \
 	-e '/Plugin/a \
-	Plugin \'csexton\/jekyll.vim\' \
+	Plugin csexton\/jekyll.vim' \
 	-i ~/.vimrc
 
 echo "set encoding=utf-8 nobomb" >> ~/.vimrc 
