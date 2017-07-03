@@ -17,7 +17,7 @@ rm -rf ~/dotfiles
 sed	-e '/nerdtree/d' \
 	-e '/navigator/d' \
 	-e '/solarized/d' \
-	-e 's/schristoomey\/vim-tmux-navigator/csexton\/jekyll.vim/' \
+	-e 's#schristoomey/vim-tmux-navigator#PProvost/vim-markdown-jekyll#' \
 	-i ~/.vimrc
 
 echo "set encoding=utf-8 nobomb" >> ~/.vimrc 
