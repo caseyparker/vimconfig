@@ -13,7 +13,7 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 # Disable some plugins I don't like much.
 sed  -i -e 's/christoomey/PPovost/' \
-	-e 's/tmux-navigation/markdown-jekyll/' \
+	-e 's/tmux-navigator/markdown-jekyll/' \
 	-e '/nerdtree/d' \
 	-e '/solarized/d' \
 	-e '/altercation/d' \
