@@ -14,8 +14,8 @@ cat ~/dotfiles/vimrc > ~/.vimrc
 rm -rf ~/dotfiles
 
 # Disable some plugins I don't like much.
-sed	-e '/nerdtree/c\\# nerdtree' \
-	-e '/navigator/c\\# vim-tmux-navigator' \
+sed	-e '/nerdtree/d' \
+	-e '/navigator/d' \
 	-i ~/.vimrc
 
 echo "set encoding=utf-8 nobomb" >> ~/.vimrc 
