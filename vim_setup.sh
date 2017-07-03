@@ -17,6 +17,7 @@ rm -rf ~/dotfiles
 sed	-e '/nerdtree/d' \
 	-e '/navigator/d' \
 	-e '/solarized/d' \
+	-e '/mux/d' \
 	-i ~/.vimrc
 
 echo "set encoding=utf-8 nobomb" >> ~/.vimrc 
