@@ -10,18 +10,13 @@ cd ~
 git clone https://github.com/souravchk/dotfiles.git
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
-wget https://github.com/lifepillar/vim-solarized8/archive/v0.6.tar.gz
-tar xvf v0.6.tar.gz 
-mv ./vim-solarized8-0.6/colors ~/.vim/
-rm -f v0.6.tar.gz
-
 cat ~/dotfiles/vimrc > ~/.vimrc 
 rm -rf ~/dotfiles
 
 # Disable some plugins I don't like much.
 sed	-e '/nerdtree/d' \
 	-e '/navigator/d' \
-	-e 's/solarized/solarized8/g' \
+	-e '/solarized/d' \
 	-i ~/.vimrc
 
 echo "set encoding=utf-8 nobomb" >> ~/.vimrc 
