@@ -15,8 +15,9 @@ rm -rf ~/dotfiles
 
 # Disable some plugins I don't like much.
 sed \
-	-e '/navigator/d' \
+	-e '/nerdtree/d' \
 	-e '/solarized/d' \
+	-e '
 	-e 's#schristoomey/vim-tmux-navigator#PProvost/vim-markdown-jekyll#' \
 	-i ~/.vimrc
 
